@@ -8,7 +8,8 @@
 
 우측 상단에 Fork를 해 본인 계정의 Fork 레포지토리를 생성해 그곳에서 작업할 것
 
-또한 작업 전 `git remote add "https://github.com/DS-2023-Capstone-Shannti/capstone_front.git"` 를 터미널에 실행햐
+또한 작업을 처음 시작할 때 `git remote add upstream "https://github.com/DS-2023-Capstone-Shannti/capstone_front.git"` 를 터미널에 실행함
+(capstone 레포지토리를 등록하기 위한 목적-1번만 하면 됨)
 
 이후 작업 후 작업이 끝난 내용을 Pull Request를 통해 캡스톤 레포지토리에 적용
 
