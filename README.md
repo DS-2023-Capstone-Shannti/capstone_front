@@ -6,13 +6,19 @@
 
 깃허브 레포지토리 사용 시 Capstone 레포지토리을 직접적으로 사용하지 않고
 
-우측 상단에 Fork를 해 본인 계정의 Fork 레포지토리를 생성해 그곳에서 작업할 것.
+우측 상단에 Fork를 해 본인 계정의 Fork 레포지토리를 생성해 그곳에서 작업할 것
+
+또한 작업 전 `git remote add "https://github.com/DS-2023-Capstone-Shannti/capstone_front.git"` 를 터미널에 실행햐
 
 이후 작업 후 작업이 끝난 내용을 Pull Request를 통해 캡스톤 레포지토리에 적용
 
 머지는 다른 팀원이 함
 
 [Fork 및 pull request 사용법](https://roniruny.tistory.com/113)
+
+Merge 후에는 업데이트된 레포지토리 내용을 가지고 와야 함
+이때, `git pull upstream main`을 해야 함
+(캡스톤 레포지토리 내용을 가지고 온다는 뜻)
 
 
 ## 리액트 초기 설정
